@@ -61,10 +61,10 @@
         - starting address of the local network have all `0` in the host part
         - ending address of the local network have all `1` in the host part
       - larger prefix -> more specific route
-        `0.0.0.0/0` - most generic (all IP addresses)
+        - `0.0.0.0/0` - most generic (all IP addresses)
           - in route table it is called the default route
-        `52.217.13.0/24` - pretty specific (256 - 1 IP addresses)
-        `52.217.13.27/32` - single IP address
+        - `52.217.13.0/24` - pretty specific (256 - 1 IP addresses)
+        - `52.217.13.27/32` - single IP address
     - route table
       - destination IP mask -> next hop / target
       - if there are multiple matching destination masks, more specific is used
@@ -135,4 +135,5 @@
   - Layer 7: Application
 
 Layer X device has layers 1-X capabilities.
+
 Layer X <-> Layer X communication abstracts all underlying levels.
