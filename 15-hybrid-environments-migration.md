@@ -451,6 +451,7 @@ Transfer Family supports a wide variety of identity providers:
 Supports Managed File Transfer Workflows (`MFTW`): serverless file workflow engine.
 
 Transfer Family Endpoint types:
+
 - Public
   - SFTP only
   - dynamic IP, managed by AWS (use DNS)

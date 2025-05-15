@@ -77,6 +77,7 @@ When creating a VPC peering connection between two VPCs, a logical gateway objec
 VPC peering connections cannot be created where there is overlap in VPC CIDRs: ideally, never use overlapping address ranges in multiple VPCs.
 
 When creating VPC peering connection through AWS console, it will be in the `Pending acceptance` state until the request will be manually accepted. After that, you need to:
+
 - add a routes to route tables in **both** VPC with destination set to other VPC CIDR and target set to a proper peering connection
 - add inbound rules to security groups, referencing other VPC security group or CIDR
 
